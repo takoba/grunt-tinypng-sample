@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/takoba/grunt-tinypng-sample/blob/master/LICENSE"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/takoba/grunt-tinypng-sample/blob/master/LICENSE"
+    }
+  ],
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-tinypng": "~0.5.2",
-    "load-grunt-tasks": "~0.3.0"
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-cli": "~0.1.13"
   }
 }
